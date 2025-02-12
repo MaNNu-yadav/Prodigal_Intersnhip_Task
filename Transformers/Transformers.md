@@ -36,12 +36,8 @@ Below is an image of the architecture.
 ## Image Representation of a Transformer
 Below is a visual representation of a Transformer model:
 
-```markdown
-![image_alt](https://github.com/MaNNu-yadav/Prodigal_Intersnhip_Task/blob/main/Transformers/images/Screenshot%202025-02-12%20193257.png?raw=true)
+![Transformer Model](https://github.com/MaNNu-yadav/Prodigal_Intersnhip_Task/blob/main/Transformers/images/Screenshot%202025-02-12%20193257.png?raw=true)
 
-
-
-```
 
 ---
 ## Positional Encoding
