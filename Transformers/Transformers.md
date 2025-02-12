@@ -37,7 +37,7 @@ Below is an image of the architecture.
 Below is a visual representation of a Transformer model:
 
 ```markdown
-![Transformer Screenshot](/images/Screenshot%202025-02-12%20193257.png)
+![Transformer Screenshot](Transformers/images/Screenshot 2025-02-12 193257.png)
 
 
 ```
