@@ -37,6 +37,7 @@ Below is an image of the architecture.
 Below is a visual representation of a Transformer model:
 
 ![Transformer Model](https://github.com/MaNNu-yadav/Prodigal_Intersnhip_Task/blob/main/Transformers/images/Screenshot%202025-02-12%20193257.png?raw=true)
+![Expanded Architecture](https://github.com/MaNNu-yadav/Prodigal_Intersnhip_Task/blob/main/Transformers/images/Screenshot%202025-02-12%20193356.png?raw=true)
 
 
 ---
