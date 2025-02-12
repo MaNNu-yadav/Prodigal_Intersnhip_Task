@@ -194,8 +194,9 @@ Adam optimization is a stochastic gradient descent method that is based on adapt
 with the following learning rate schedule:
 
 $$
-\text{Learning Rate} = d_{model} \cdot \min \left( \text{step\_num}^{-0.5}, \text{step\_num} \cdot \text{warmup\_steps}^{-1.5} \right)
+\text{Learning Rate} = d_{\text{model}} \cdot \min \left( \mathrm{step\_num}^{-0.5}, \mathrm{step\_num} \cdot \mathrm{warmup\_steps}^{-1.5} \right)
 $$
+
 - **Warmup steps** = 4000
 - **Beta1** = 0.9
 - **Beta2** = 0.98
@@ -210,23 +211,16 @@ $$
 
 ---
 
-## Transformer Code Implementation
-
-```python
-from transformers import AutoTokenizer, AutoModel
-
-tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-model = AutoModel.from_pretrained("bert-base-uncased")
-
-text = "Transformers are amazing!"
-tokens = tokenizer(text, return_tensors="pt")
-output = model(**tokens)
-
-print(output.last_hidden_state.shape)
-```
-
----
-
 ## Conclusion
 
-Transformers have significantly improved NLP tasks like translation, text generation, and summarization. Ongoing research continues to expand their applications into areas like image recognition and reinforcement learning.
+This work presented the **Transformer**, the first sequence transduction model based entirely on  
+attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with  
+multi-headed self-attention.  
+
+The **Transformer** can be trained significantly faster than architectures based on recurrent or convolutional layers.  
+On both **WMT 2014 English-to-German** and **WMT 2014 English-to-French** translation tasks, it achieve a new state-of-the-art.  
+Transformers are the future of AI; their unique functioning will benefit various domains like **computer vision**, **natural language processing (NLP)**, and **reinforcement learning**.  
+With their ability to **model long-range dependencies** and process large amounts of data efficiently, Transformers have revolutionized tasks such as **image recognition**, **text generation**, **speech processing**.  
+By eliminating the need for recurrence, they enable parallel processing, making training significantly faster and more scalable across different industries, from healthcare to finance and beyond.
+
+
